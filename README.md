@@ -11,5 +11,5 @@ This is also a good chance to practice:
 # Components #
 * Router - using Regex to route URL to Controller/action
 * Model
-* View - The HTML template
-* Controller - controller/action decides what view to render and show
+* View - HTML templates
+* Controller - controller/action decides which view to render
