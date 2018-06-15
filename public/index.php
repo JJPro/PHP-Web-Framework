@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Front controller
- */
+* Front controller
+*/
 
 /**
 * Utility - log info to console (browser)
@@ -21,8 +21,8 @@ CONSOLE;
 }
 
 /**
- * Routing
- */
+* Routing
+*/
 require '../Core/Router.php';
 
 $router = new Router();

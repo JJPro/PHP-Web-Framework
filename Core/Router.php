@@ -1,15 +1,15 @@
 <?php
 class Router {
   /**
-   * Associative array of routes ( the routing table )
-   * @var array
-   */
+  * Associative array of routes ( the routing table )
+  * @var array
+  */
   protected $routes = [];
 
   /**
-   * Parameters from the matched route
-   * @var array
-  **/
+  * Parameters from the matched route
+  * @var array
+  */
   protected $params = [];
 
   /**

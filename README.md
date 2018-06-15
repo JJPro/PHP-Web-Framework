@@ -6,7 +6,8 @@ put to good use in future projects.
 This is also a good chance to practice:
 - Routing with Regex (i.e. named capturing groups) - map requests to controller/actions.
 - PHP 7 new features.
-- Composer to integrate with 3rd party libraries.
+- Utilize composer to integrate with 3rd party libraries.
+- Follow PSR coding guidelines
 
 # Components #
 * Router - using Regex to route URL to Controller/action
