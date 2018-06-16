@@ -27,10 +27,15 @@ require '../Core/Router.php';
 
 $router = new Router();
 
-// Add routes
+// Add routes - fixed routes
 $router->add('', ['controller' => 'Home', 'action' => 'index']);
 $router->add('posts', ['controller' => 'Posts', 'action' => 'index']);
 $router->add('posts/new', ['controller' => 'Posts', 'action' => 'new']);
+// Add routes - dynamic routes
+$router->add('{controller}/{action}');
+$router->add('admin/{action}/{controller}');
+$router->add('{controller}/{id}/{action}');
+$router->add('{controller}', ['action' => 'index']);
 
 // Display the routing table
 // echo "<pre>";
