@@ -1,4 +1,6 @@
 <?php
+namespace Core;
+
 class Router {
   /**
   * Associative array of routes ( the routing table )
@@ -93,6 +95,115 @@ class Router {
   public function getParams()
   {
     return $this->params;
+  }
+
+  /**
+  * Call the requested controller/action method
+  *
+  * @param string $url  The route URL
+  *
+  * @return void
+  */
+  public function dispatch($url)
+  {
+    $url = $this->removeQueryStringVariables($url);
+    if ($this->match($url)) {
+      $controller = $this->params['controller'];
+      $controller = $this->convertToPascalCase($controller);
+      $controller = "{$this->getNamespace()}$controller";
+
+      if (class_exists($controller)) {
+        $controller_object = new $controller($this->params);
+        $action = $this->params['action'];
+        $action = $this->convertToCamelCase($action);
+
+        // if (is_callable([$controller_object, $action])) {
+        //   $controller_object->$action();
+        // } else {
+        //   echo "Method $action in controller $controller not found";
+        // }
+        if (preg_match('/action$/i', $action) == 0) {
+          $controller_object->$action();
+        } else {
+          throw new \Exception("Method $action in controller $controller cannot be called directly");
+        }
+      } else {
+        echo "Controller class $controller not found";
+      }
+    } else {
+      echo "No route found for $url";
+    }
+  }
+
+  /**
+  * Get the namespace for the controller class. The namespace defined in the
+  * router parameters is added if present.
+  *
+  * @return string The request URL
+  */
+  protected function getNamespace()
+  {
+    $namespace = 'App\Controllers\\';
+
+    if (array_key_exists('namespace', $this->params)) {
+      $namespace .= $this->params['namespace'] . '\\';
+    }
+
+    return $namespace;
+  }
+
+  /**
+  * Utility function, converts string to pascal case style
+  *
+  * @param string $controller
+  *
+  * @return string   String in pascal case
+  */
+  private function convertToPascalCase(string $controller)
+  {
+    // convert to pascal case first
+    $controller = ucwords($controller, '-');
+
+    // remove - (hyphen)
+    $controller = str_replace('-', '', $controller);
+
+    return $controller;
+  }
+
+  /**
+  * Utility function, converts string to camel case style
+  *
+  * @param string $action
+  *
+  * @return string    String in camel case
+  */
+  private function convertToCamelCase($action)
+  {
+    // convert to pascal case first
+    $action = $this->convertToPascalCase($action);
+
+    // convert first letter to lower case
+    $action = lcfirst($action);
+
+    return $action;
+  }
+
+  /**
+  * Remove query string variables
+  *
+  * @param string $url  The full URL
+  *
+  * @return string      The URL with the query variables removed
+  */
+  protected function removeQueryStringVariables($url)
+  {
+    $parts = explode('&', $url, 2);
+    if (strpos($parts[0], '=') === false) {
+      $url = $parts[0];
+    } else {
+      $url = '';
+    }
+    return $url;
   }
 
 }

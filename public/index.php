@@ -5,6 +5,23 @@
 */
 
 /**
+* Twig
+*/
+require_once '../vendor/autoload.php';
+
+/**
+* Autoloader
+*/
+spl_autoload_register(function($class){
+  $doc_root = dirname(__DIR__);
+  $file = $doc_root . '/' . str_replace('\\', '/', $class) . '.php';
+
+  if (is_readable($file)) {
+    require $file;
+  }
+});
+
+/**
 * Utility - log info to console (browser)
 *
 * @param $data
@@ -20,33 +37,21 @@ function console_log($data, string $label = '')
 CONSOLE;
 }
 
+
 /**
 * Routing
 */
-require '../Core/Router.php';
-
-$router = new Router();
+$router = new Core\Router();
 
 // Add routes - fixed routes
 $router->add('', ['controller' => 'Home', 'action' => 'index']);
-$router->add('posts', ['controller' => 'Posts', 'action' => 'index']);
-$router->add('posts/new', ['controller' => 'Posts', 'action' => 'new']);
 // Add routes - dynamic routes
+$router->add('admin/{controller}/{action}', ['namespace' => 'Admin']);
+$router->add('admin/{controller}', ['namespace' => 'Admin', 'action' => 'index']);
 $router->add('{controller}/{action}');
-$router->add('admin/{action}/{controller}');
 $router->add('{controller}/{id}/{action}');
 $router->add('{controller}', ['action' => 'index']);
 
-// Display the routing table
-// echo "<pre>";
-console_log($router->getRoutes(), "routes");
-// echo "</pre>";
+$router->dispatch($_SERVER['QUERY_STRING']);
 
-// Match the requested route
-$url = $_SERVER['QUERY_STRING'];
-
-if ($router->match($url)) {
-  console_log($router->getParams(), "params");
-} else {
-  console_log("No route found for URL '$url'");
-}
+console_log($_SERVER['QUERY_STRING'], 'query string:');
