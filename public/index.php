@@ -5,13 +5,14 @@
 */
 
 /**
-* Twig
+* Autoloader
+*
+* Twig,
+* my own classes
 */
 require_once '../vendor/autoload.php';
 
-/**
-* Autoloader
-*/
+/* dealt by composer autoloader
 spl_autoload_register(function($class){
   $doc_root = dirname(__DIR__);
   $file = $doc_root . '/' . str_replace('\\', '/', $class) . '.php';
@@ -20,6 +21,7 @@ spl_autoload_register(function($class){
     require $file;
   }
 });
+*/
 
 /**
 * Utility - log info to console (browser)

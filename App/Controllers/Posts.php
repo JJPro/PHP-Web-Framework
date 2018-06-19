@@ -15,8 +15,7 @@ class Posts extends \Core\Controller
   */
   protected function index()
   {
-    echo "Posts index page ";
-    console_log($_GET, '$_GET');
+    \Core\View::render("index.html");
   }
 
   /**
