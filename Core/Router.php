@@ -128,10 +128,10 @@ class Router {
           throw new \Exception("Method $action in controller $controller cannot be called directly");
         }
       } else {
-        echo "Controller class $controller not found";
+        throw new \Exception("Controller class $controller not found");
       }
     } else {
-      echo "No route found for $url";
+      throw new \Exception("No route found for $url", 404);
     }
   }
 

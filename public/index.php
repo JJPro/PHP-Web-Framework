@@ -1,5 +1,4 @@
 <?php
-
 /**
 * Front controller
 */
@@ -22,6 +21,12 @@ spl_autoload_register(function($class){
   }
 });
 */
+
+/**
+* Error and Exception handling
+*/
+set_error_handler('\Core\Error::errorHandler');
+set_exception_handler('\Core\Error::exceptionHandler');
 
 /**
 * Utility - log info to console (browser)

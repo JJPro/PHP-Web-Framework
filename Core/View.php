@@ -41,7 +41,7 @@ class View
       }
       $twig->display("$controller_name/$view.twig", $assigns);
     } else {
-      echo "$view_file_path not found";
+      throw new \Exception("$view_file_path not found");
     }
   }
 }

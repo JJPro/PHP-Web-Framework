@@ -1,13 +1,13 @@
 <?php
 namespace App\Controllers;
-use \Core\View;
+use Core\{View, Controller};
 
 /**
 * Home controller
 *
 * PHP version 7.2
 */
-class Home extends \Core\Controller
+class Home extends Controller
 {
   /**
   * Show the index page

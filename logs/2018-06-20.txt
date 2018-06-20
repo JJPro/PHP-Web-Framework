@@ -1,0 +1,291 @@
+[20-Jun-2018 08:45:14 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postsd not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postsd')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 08:45:14 UTC] Uncaught exception: 'Exception' with message 'No route found for favicon.ico'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 08:46:10 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postsd not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postsd')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 08:46:10 UTC] Uncaught exception: 'Exception' with message 'No route found for favicon.ico'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:07:07 UTC] Uncaught exception: 'Exception' with message 'No route found for xmlrpc.php'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('xmlrpc.php')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:07:29 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postsd not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postsd')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:07:29 UTC] Uncaught exception: 'Exception' with message 'No route found for favicon.ico'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:07:30 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postsd not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postsd')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:07:31 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postsd not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postsd')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:07:51 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postsd not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postsd')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:07:59 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:09:18 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:09:52 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\K not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('k')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:12:13 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\K not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('k')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:12:23 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:13:18 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:13:24 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products/k')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:13:37 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products/k')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:13:38 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products/k')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:14:21 UTC] Uncaught exception: 'Exception' with message 'No route found for products/k/kk/kk'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('products/k/kk/k...')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:14:30 UTC] Uncaught exception: 'Exception' with message 'No route found for admin/users/kkk/kkk/kk'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('admin/users/kkk...')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:15:27 UTC] Uncaught exception: 'Exception' with message 'Method kk not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('kk', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/new/kk')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:15:43 UTC] Uncaught exception: 'Exception' with message 'Method newd not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('newd', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/newd')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:15:51 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postdad not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postdad')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:17:18 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postdad not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postdad')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:17:58 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postdad not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postdad')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:18:17 UTC] Uncaught exception: 'Exception' with message 'Method newd not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('newd', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/newd')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:18:48 UTC] Uncaught exception: 'Exception' with message 'Method newd not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('newd', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/newd')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:18:57 UTC] Uncaught exception: 'Exception' with message 'Method kk not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('kk', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/newd/kk')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:19:10 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:19:24 UTC] Uncaught exception: 'Exception' with message 'Method 2 not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('2', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:19:44 UTC] Uncaught exception: 'Exception' with message 'Method 2 not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('2', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:19:46 UTC] Uncaught exception: 'Exception' with message 'Method 2 not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('2', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:20:02 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postsd not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postsd')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:20:26 UTC] Uncaught exception: 'Exception' with message 'No route found for post/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('post/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:20:49 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postkk not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postkk')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:21:36 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Postkk not found'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('postkk')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 131
+[20-Jun-2018 09:21:45 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:22:07 UTC] Uncaught exception: 'Exception' with message 'Method 2 not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('2', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:22:15 UTC] Uncaught exception: 'Exception' with message 'Method 2 not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('2', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:22:20 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:22:28 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:22:34 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:22:38 UTC] Uncaught exception: 'Exception' with message 'Method 2 not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('2', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48
+[20-Jun-2018 09:29:39 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/2/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:29:39 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "Error/1.html.twig" (looked into: ../App/Templates). in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Error/1.html.tw...')
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Error/1.html.tw...')
+#2 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('Error/1.html.tw...')
+#3 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(304): Twig_Environment->loadTemplate('Error/1.html.tw...')
+#4 /Users/jjpro/Sites/php-mvc-from-scratch/Core/View.php(42): Twig_Environment->display('Error/1.html.tw...', Array)
+#5 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Error.php(65): Core\View::render('1.html')
+#6 [in in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[20-Jun-2018 09:30:13 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/2/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:30:13 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "Error/1.html.twig" (looked into: ../App/Templates). in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Error/1.html.tw...')
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Error/1.html.tw...')
+#2 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('Error/1.html.tw...')
+#3 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(304): Twig_Environment->loadTemplate('Error/1.html.tw...')
+#4 /Users/jjpro/Sites/php-mvc-from-scratch/Core/View.php(42): Twig_Environment->display('Error/1.html.tw...', Array)
+#5 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Error.php(65): Core\View::render('1.html')
+#6 [in in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[20-Jun-2018 09:30:14 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/2/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/2/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:30:14 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "Error/1.html.twig" (looked into: ../App/Templates). in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Error/1.html.tw...')
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Error/1.html.tw...')
+#2 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('Error/1.html.tw...')
+#3 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(304): Twig_Environment->loadTemplate('Error/1.html.tw...')
+#4 /Users/jjpro/Sites/php-mvc-from-scratch/Core/View.php(42): Twig_Environment->display('Error/1.html.tw...', Array)
+#5 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Error.php(65): Core\View::render('1.html')
+#6 [in in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[20-Jun-2018 09:31:01 UTC] Uncaught exception: 'Exception' with message 'No route found for login.cgi'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('login.cgi')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:31:01 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "Error/1.html.twig" (looked into: ../App/Templates). in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Error/1.html.tw...')
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Error/1.html.tw...')
+#2 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('Error/1.html.tw...')
+#3 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(304): Twig_Environment->loadTemplate('Error/1.html.tw...')
+#4 /Users/jjpro/Sites/php-mvc-from-scratch/Core/View.php(42): Twig_Environment->display('Error/1.html.tw...', Array)
+#5 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Error.php(65): Core\View::render('1.html')
+#6 [in in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[20-Jun-2018 09:31:05 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:31:05 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "Error/1.html.twig" (looked into: ../App/Templates). in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Error/1.html.tw...')
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Error/1.html.tw...')
+#2 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('Error/1.html.tw...')
+#3 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(304): Twig_Environment->loadTemplate('Error/1.html.tw...')
+#4 /Users/jjpro/Sites/php-mvc-from-scratch/Core/View.php(42): Twig_Environment->display('Error/1.html.tw...', Array)
+#5 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Error.php(65): Core\View::render('1.html')
+#6 [in in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[20-Jun-2018 09:31:45 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:31:45 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "Error/1.html.twig" (looked into: ../App/Templates). in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Error/1.html.tw...')
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Error/1.html.tw...')
+#2 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('Error/1.html.tw...')
+#3 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(304): Twig_Environment->loadTemplate('Error/1.html.tw...')
+#4 /Users/jjpro/Sites/php-mvc-from-scratch/Core/View.php(42): Twig_Environment->display('Error/1.html.tw...', Array)
+#5 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Error.php(66): Core\View::render('1.html')
+#6 [in in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[20-Jun-2018 09:35:16 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:35:16 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "Error/400.html.twig" (looked into: ../App/Templates). in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Error/400.html....')
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Error/400.html....')
+#2 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('Error/400.html....')
+#3 /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Environment.php(304): Twig_Environment->loadTemplate('Error/400.html....')
+#4 /Users/jjpro/Sites/php-mvc-from-scratch/Core/View.php(42): Twig_Environment->display('Error/400.html....', Array)
+#5 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Error.php(66): Core\View::render('400.html')
+#6 in /Users/jjpro/Sites/php-mvc-from-scratch/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[20-Jun-2018 09:35:43 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:35:53 UTC] Uncaught exception: 'Exception' with message 'No route found for posts/new/'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/new/')
+#1 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php' on line 134
+[20-Jun-2018 09:36:01 UTC] Uncaught exception: 'Exception' with message 'Method newk not found in controller App\Controllers\Posts'
+Stack trace: #0 /Users/jjpro/Sites/php-mvc-from-scratch/Core/Router.php(126): Core\Controller->__call('newk', Array)
+#1 /Users/jjpro/Sites/php-mvc-from-scratch/public/index.php(62): Core\Router->dispatch('posts/newk')
+#2 {main}
+Thrown in '/Users/jjpro/Sites/php-mvc-from-scratch/Core/Controller.php' on line 48

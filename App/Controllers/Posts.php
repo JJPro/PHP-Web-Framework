@@ -1,5 +1,6 @@
 <?php
 namespace App\Controllers;
+use App\Models\Post;
 /**
 * Posts controller
 *
@@ -15,7 +16,8 @@ class Posts extends \Core\Controller
   */
   protected function index()
   {
-    \Core\View::render("index.html");
+    $posts = Post::getAll();
+    \Core\View::render("index.html", ['posts' => $posts]);
   }
 
   /**
