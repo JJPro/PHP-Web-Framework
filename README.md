@@ -8,9 +8,11 @@ This is also a good chance to practice:
 - PHP 7 new features.
 - Utilize composer to integrate with 3rd party libraries.
 - Follow PSR coding guidelines
+- Autoloading with composer
 
 # Components #
 * Router - using Regex to route URL to Controller/action
 * Model
-* View - HTML templates
+* Templates - HTML templates. The View part of MVC
 * Controller - controller/action decides which view to render
+* Config.php - application configurations (database, log level, etc. ) in one place. 
